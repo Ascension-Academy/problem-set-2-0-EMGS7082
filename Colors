@@ -1,10 +1,10 @@
-#include <cs50.h>
+#include <cs50.h> //included libraries
 #include <stdio.h>
 
-int main(void){
-    string colors[5] = {"red", "green", "yellow", "blue", "orange"};
-    for(int i = 0; i < 5; i++){
-        printf("position %i containns %s\n", i + 1, colors[i]);
+int main(void){ //main function
+    string colors[5] = {"red", "green", "yellow", "blue", "orange"}; //string containing 5 positions and listed 6 colors
+    for(int i = 0; i < 5; i++){ //for loop, made i = 0, and incremented when i was less than 5
+        printf("position %i containns %s\n", i + 1, colors[i]); //prints %i which is the position of the color, which I added one to so it doesn't display zero, and %s which is the string values of the 5 positions in the array
     }
 }
 
